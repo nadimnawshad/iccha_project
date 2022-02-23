@@ -1,0 +1,40 @@
+/*
+<section >
+   
+    <form action="<?php echo $_SERVER["PHP_SELF"];?>" class="addCourseForm" method="post" enctype="multipart/form-data">
+<br><label> point from less          :</label><br> <input type="text" name="updatePoint" placeholder="Enter Point"><?php echo $validatepoint ?> <br><br>
+<br><br>
+<center>
+    <input type="submit" class="btn submitButton" value="Update"> <?php echo " " ?>
+</center>
+</form>
+    
+     <div class="container">
+      <div class="viewInstactorClass">
+        <h1>Student points</h1>
+        <div class="instactorList">
+          <?php
+            $connection = new db();
+            $conobj=$connection->OpenCon();
+            $userQuery=$connection->ShowstudentsLPoint($conobj,"learner",$updatePoint);
+              echo "<h3>Courses List</h3><br>";
+              if ($userQuery->num_rows > 0) {
+                echo "<table><thead><tr><th>Id</th><th>Name</th><th>Points</th></tr></thead>";
+                ?>
+                <tbody id="data">
+                <?php 
+                while($row = $userQuery->fetch_assoc()) {
+                  echo "<tr><td>".$row["lernerId"]."</td><td>".$row["username"]."</td><td>".$row["Point"]."</td></tr>";
+                }
+                echo "</tbody></table>";
+              } else {
+                echo "0 results";
+              }
+          ?>
+        </div>
+        
+      </div>
+       
+     </div>
+   </section>
+*/

@@ -1,0 +1,44 @@
+[
+    {
+        "instactorId": "5",
+        "instactorName": "saad",
+        "assignedCourse": "BBA",
+        "instactorPassword": "!@Mashuk2017."
+    },
+    {
+        "instactorId": "6",
+        "instactorName": "saad",
+        "assignedCourse": "CSE",
+        "instactorPassword": "!@Mashuk2017."
+    },
+    {
+        "instactorId": "335",
+        "instactorName": "newInstactor",
+        "assignedCourse": "LAW",
+        "instactorPassword": "12345679"
+    },
+    {
+        "instactorId": "336",
+        "instactorName": "Fahim",
+        "assignedCourse": "Advertisement",
+        "instactorPassword": "fahimkabir"
+    },
+    {
+        "instactorId": "337",
+        "instactorName": "saad",
+        "assignedCourse": "CSE",
+        "instactorPassword": "123456789"
+    },
+    {
+        "instactorId": "339",
+        "instactorName": "wqrds",
+        "assignedCourse": "admin",
+        "instactorPassword": "!@Mashuk2017."
+    },
+    {
+        "instactorId": "340",
+        "instactorName": "Nadim",
+        "assignedCourse": "WEB-TECH",
+        "instactorPassword": "123ABC!@#"
+    }
+]

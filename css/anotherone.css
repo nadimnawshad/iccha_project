@@ -1,0 +1,561 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+a{
+    text-decoration: none;
+    color: #ebd7ea;
+}
+body{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    background: #474c97a8;
+    color: #000000;
+}
+button{
+    margin-top:20px;
+    margin-right: 10px;
+    width: 30%;
+    height: 40px;
+    margin-bottom: 15px;
+    border: 1px solid #080708;
+    background: #572da5;
+    border-radius: 25px;
+    font-size: 18px;
+    color:#e9f4fb;
+    font-weight: 700;
+    cursor: pointer;
+    outline:none;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.15) ;
+   
+}
+input[type="submit" i]{
+    margin-top:20px;
+    margin-right: 10px;
+    width: 30%;
+    height: 40px;
+    margin-bottom: 15px;
+    border: 1px solid #604eaf;
+    background: rgb(88, 103, 189);
+    border-radius: 25px;
+    font-size: 18px;
+    color:#e9f4fb;
+    font-weight: 700;
+    cursor: pointer;
+    outline:none;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.150) ;
+}
+input[type="submit" i]:hover{
+    width: 32%;
+    height: 42px;
+    transition: .5s
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 10px;    
+}
+
+.pop{
+    text-align: left;
+    text-shadow: 0rem;
+    text-emphasis:initial;
+    font-size: 50px;
+    font-style: bold;
+}
+.popie{
+    text-align: center;
+    text-shadow: 10rem;
+    text-emphasis:initial;
+    font-size: 40px;
+    font-style: bold;
+    color: rgb(92, 12, 138);
+    font-style: italic;
+}
+header {
+    box-shadow: 0px 0px 20px 2px #000202;
+}
+.logo{
+    flex-basis: 20%;
+    max-width: 20%;
+    text-align: center;
+}
+
+.logo img{
+    max-width: 70%;
+    padding-top: 21px;
+}
+
+nav{
+    flex-basis: 80%;
+    max-width: 80%;
+
+}
+
+nav ul,.footer ul{
+    display: flex;
+    padding: 0;
+    margin-right: 20px;
+    justify-content: flex-end;
+}
+.footer ul{
+    display: block !important;
+}
+input[type="text" i] {
+    padding: 10px 20px;
+}
+.box{
+    box-shadow: ivory;
+    background-color: rgb(88, 103, 189);
+    position: relative;
+    z-index: 3;
+    padding: 30px;
+    font-size:18px;
+    max-width: 600px;
+    
+}
+.boxie{
+    box-shadow: rgb(248, 248, 246);
+    background-color:rgb(241, 241, 241); ;
+    position: relative;
+    z-index: 3;
+    padding: 30px;
+    font-size:18px;
+    max-width: 600px;
+    
+}
+.boxtoo{
+    border:black;
+    box-shadow: black;
+    background-color: rgb(185, 192, 233);
+    position: relative;
+    z-index: 3;
+    padding-top: 50px;
+    padding: 30px;
+    font-size:18px;
+    max-width: 600px;
+    
+}
+nav ul li, .footer li{
+    list-style-type: none;
+    margin-right: 5px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+.frm {
+    background-color:  #b0b4f1a8;
+    box-sizing: flex;
+    border-radius: 10px;
+    margin-top: 100px;
+    box-shadow: 10px 10px 15px rgba(5, 4, 4, 0.15) ;
+    padding: 20px;
+ }
+.lol{
+    color: rgb(106, 195, 218);
+}
+.inp{
+    color:rgb(5, 19, 97);
+    font-size:18px;
+    font-style: italic;
+}
+
+.txt-box{
+    display: inline-block;
+     width: 100%;
+     padding: 0 5px;
+     line-height: 50px;
+     height: 40px;
+     background-color: white;
+     border: 2px solid #e6e6e6;
+     border-bottom-width: 3px;
+     border-radius: 5px;
+     outline: 0;
+}
+nav ul li a,.dropbtn,.logoutBtn {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 13px 35px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+nav ul li a:hover,.dropbtn:hover,.dropdown-content a:hover,.btn:hover,.logoutButton a:hover,.back a:hover {
+    background-color: #001a1a;
+    border-radius: 5px;
+    color: #ffffff;
+}
+.logoutButton a:hover{
+    border: 1px solid #c55a11;
+}
+nav ul li:hover{
+    border: 1px solid #c55a11;
+}
+
+.middle-content{
+    margin-right: 100px;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  border-radius: 5px;
+  background-color: #047373a8;
+}
+.dropdown-content ul,.dropdown-content li{
+    margin: 0px;
+}
+
+
+
+.get{
+align-items: right;
+
+}
+.dropdown-content li{
+    margin-right: 5px;
+}
+.inn{
+    color:white;
+    font-size:18px;
+  font-style: italic;
+}
+
+.ri input[type="text" i]{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 1px 2px;
+    width: 450px;
+    height: 20px;
+}
+.ri button{
+    margin-top:20px;
+    margin-right: 10px;
+    width: 30%;
+    height: 40px;
+    margin-bottom: 15px;
+    border: 1px solid #080708;
+    background: #572da5;
+    border-radius: 25px;
+    font-size: 18px;
+    color:#e9f4fb;
+    font-weight: 700;
+    cursor: pointer;
+    outline:none;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.15) ;
+   
+}
+.ri {
+    align-items: left;
+
+}
+.ri h2{
+font-size:30px; 
+}
+
+
+
+
+.dropdown-content a {
+  color: #ffffff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content {
+  margin-top: 2px;  
+}
+.banner-section {
+    color:rgb(3, 1, 1);
+    margin-top: 50px;
+    background-image: url(../sources/bhalo.png);
+    background-repeat: repeat;
+    background-size: auto;
+}
+
+.banner-section .container {
+    padding: 31px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-section h1,.loginContent h2 {
+    font-size: 63px;
+    font-weight: 600;
+    color: #fff;
+    padding: 85px 0px 35px 0px;
+}
+.banner-section span {
+    width: 100%;
+    height: 2px;
+    background: #003b3b;
+    display: block;
+}
+
+.banner-section p {
+    font-size: 29px;
+    font-weight: 500;
+    color: #fff;
+    margin: 45px 0px 30px;
+    padding-bottom: 88px;
+}
+.btn {
+    border: 1px solid #003b3b;
+    background: #fffefe3b;
+    margin: 10px;
+    color: #f9ffff;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 5px;
+    padding: 13px 35px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+}
+.banner-section button:hover,.forgotPass:hover,.back:hover,.submitButton:hover {
+    border: 1px solid #c55a11;
+    background: #001a1a;
+    color: #fff;
+}
+
+.footer{
+    background: #ffffff78;  
+}
+.footer .container{
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.info,.contact{
+    max-width: 50%;
+    flex-basis: 50%;
+    padding-top: 21px;
+}
+.info ul,.contact ul{
+    margin: 5px 150px 5px 150px;
+}
+.info li,.contact li{
+    margin: 5px 0px 5px 0px;
+}
+.loginClass{
+    flex-basis: 30%;
+    max-width: 30%;
+    margin: 30px 0px 30px 40px;
+    padding: 30px;
+    background: #002727;
+    border-radius: 20px;
+}
+.loginClass h1,.addCourseClass h1{
+    margin-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+}
+.loginForm,.addCourseForm,.addInstactorForm,.companyApprovalForm{
+    text-align: left;
+}
+.loginForm input,.addCourseForm input[type=text],.addCourseForm input[type=number],
+.addCourseForm textarea,.addInstactorForm input[type=text],.addInstactorForm input[type=password],
+.searchBar input[type=text]{
+
+padding: 10px 0px 10px 5px;
+
+margin: 10px 5px 15px 0px;
+
+width: 100%;
+}
+.loginForm label,.addCourseForm label,.addInstactorForm label,.companyApprovalForm label{
+
+    font-size: 18px;
+}
+.submitButton{
+    justify-content: center;
+    margin-left: 6px !important;
+}
+.forgotPass,.back{
+
+margin-bottom: 10px;
+}
+.forgotPass a,.back a{
+
+color: #fff;
+}
+.loginFooter{
+    
+margin: 45px 0px 0px 0px;
+    
+display: flex;
+}
+.loginContent{
+    flex-basis: 50%;
+    max-width: 50%;
+    text-align: left;
+    padding-left: 75px;
+}
+.loginContent h2{
+
+padding: 30px 0px 10px 0px;
+}
+.loginRow1{
+
+}
+.loginRow2{
+
+}
+.loginRow3{
+
+}
+.loginRow1,.loginRow2,.loginRow3{
+
+}
+.addSection,.viewSection{
+    flex-basis: 40%;
+    max-width: 40%;
+    margin: 30px 0px 30px 40px;
+    padding: 30px;
+    background: #002727;
+    border-radius: 20px;
+}
+.addSection{
+    padding: 63px 0px 63px 0px;
+}
+.addSection h1{
+    padding: 0px 0px 30px 0px;
+}
+.viewSection{
+
+}
+
+.viewSection h1{
+
+padding: 0px 0px 30px 0px;
+}
+.addSection a,.viewSection a{
+    color: #fff;
+}
+.logoutButton,.backButton{
+    display: flex;
+    justify-content: center;
+}
+.logoutButton h3,.backButton h3{
+    padding-top: 10px;
+}
+.logoutButton a,.backButton a{
+    margin-left: 12px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+}
+.addCourseClass,.addInstactorClass,.approveCompanyClass,.viewCompanyClass,
+.viewCourseClass,.viewLernerClass,.viewInstactorClass{
+    padding: 20px;
+    flex-basis: 35%;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 47px;
+    background: #ffffff30;
+    border-radius: 10px;
+}
+.addCourseForm{
+
+}
+.addCourseForm input[type=radio]{
+
+margin: 15px 5px 20px 10px;
+
+height: 20px;
+
+width: 20px;
+
+vertical-align: middle;
+}
+.addCourseForm input[type=file]{
+
+margin: 5px 5px 5px 10px;
+
+padding: 5px 30px 10px 5px;
+}
+.addCourseForm input[type=submit]{
+
+margin-left: 40px !important;
+}
+.addCourseForm input[type=reset]{
+}
+.addCourseForm textarea{
+    
+font-family: 'Lato', sans-serif;
+    
+font-size: 16px;
+    
+height: 80px;
+}
+.addCourseBack{
+
+}
+.addCourseBack h3,.addInstactorBack h3,.companyList h3,.courseList h3,.instactorList h3,.lernerList h3{
+    
+padding-top: 19px;
+}
+.addCourseBack a{
+
+background: transparent;
+}
+.addInstactorForm input[type=submit]{
+margin-left: 25px !important;
+}
+.searchBar{
+        flex-basis: 80%;
+    max-width: 100%;
+}
+.searchBar form{
+    justify-content: flex-end;
+    display: flex;
+    margin-left: 420px;
+    margin-right: 30px;
+}
+.searchBar input[type=submit]{margin-top: 8px;margin-bottom: 14px !important;padding: 15px 15px 15px 15px;}
+.companyApproval table tbody tr td,.companyApproval table tbody tr th,.companyList table tbody tr th,
+.companyList table tbody tr td,.courseList table tbody tr th,.courseList table tbody tr td,.instactorList table tbody tr th,
+.instactorList table tbody tr td,.lernerList table tbody tr th,.lernerList table tbody tr td{
+    padding: 5px 20px;
+    text-align: left;
+}
+.companyApproval,.companyList,.courseList,.instactorList,.lernerList{
+    
+margin: 30px 30px;
+}
+.companyApprovalForm{
+    
+display: flex;
+}
+
+.companyApprovalForm input[type=text]{
+
+padding: 0px 33px !important;
+
+margin: 14px 0px 14px 0px;
+}
+.companyApprovalForm .btn{
+
+margin: 12px 0px 12px 0px;
+
+padding: 10px 10px;
+}
+.companyList table{
+    padding-left: 50px;
+}
+.addViewCompanyBack{
+    margin-top: 60px;
+}
